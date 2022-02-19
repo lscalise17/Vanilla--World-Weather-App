@@ -17,7 +17,6 @@ li {
 }
 .weatherInfo-wrapper {
   max-width: 600px;
-  margin: 30 auto;
 }
 .weatherInfo {
   padding: 20px;
@@ -38,4 +37,19 @@ li {
   font-size: 16px;
   position: relative;
   top: -10px;
+}
+.days {
+  text-align: center;
+  color: #68b7f7;
+}
+.dates {
+  text-align: center;
+  margin-bottom: -20px;
+  color: #68b7f7;
+}
+.forecast {
+  border: 1px solid rgb(148, 145, 145);
+  text-align: center;
+  color: #596aca;
+  border-radius: 4px;
 }
