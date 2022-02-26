@@ -19,9 +19,22 @@ li {
   max-width: 600px;
 }
 .weatherInfo {
+  max-width: 600px;
+  margin: 30px auto;
   padding: 20px;
   border: 5px solid #fe85a3;
   border-radius: 5px;
+}
+.searchbox {
+  margin-top: 0px;
+  margin-left: 100px;
+  float: left;
+}
+#button {
+  margin-top: -35px;
+  width: 75px;
+  font-size: 15px;
+  text-align: center;
 }
 .resize {
   width: 60px;
