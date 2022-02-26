@@ -1,7 +1,6 @@
 h1 {
   color: #e93e69;
   line-height: 28px;
-  font-family: Georgia, "Times New Roman", Times, serif;
   margin-bottom: 20px;
 }
 
@@ -41,6 +40,13 @@ li {
   height: auto;
   margin-right: 10px;
   float: left;
+}
+#description {
+  text-align: left;
+  margin-top: -10px;
+  margin-left: 5px;
+  color: #e93e69;
+  font-size: 2em;
 }
 .temp strong {
   color: #ad48bc;
