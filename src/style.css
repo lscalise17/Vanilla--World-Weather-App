@@ -47,6 +47,7 @@ li {
   margin-left: 5px;
   color: #e93e69;
   font-size: 2em;
+  text-transform: capitalize;
 }
 .temp strong {
   color: #ad48bc;
