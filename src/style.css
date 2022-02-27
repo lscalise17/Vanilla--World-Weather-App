@@ -22,7 +22,12 @@ li {
 footer {
   margin-left: 150px;
 }
-
+#update {
+  margin-top: -10px;
+  margin-bottom: 20px;
+  font-weight: 300;
+  color: #68b7f7;
+}
 .weatherInfo-wrapper {
   max-width: 900px;
 }
@@ -40,6 +45,7 @@ footer {
 #search-btn {
   display: block;
   margin-left: -50px;
+  background-color: #fe85a3;
 }
 .resize {
   width: 60px;
@@ -79,4 +85,12 @@ footer {
   text-align: center;
   color: #596aca;
   border-radius: 4px;
+}
+.temp .active {
+  color: black;
+  cursor: default;
+  text-decoration: none;
+}
+.temp .active:hover {
+  text-decoration: none;
 }
