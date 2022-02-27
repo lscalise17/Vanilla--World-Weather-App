@@ -14,8 +14,12 @@ li {
   margin: 0;
   padding: 0;
 }
+footer {
+  margin-left: 50px;
+}
+
 .weatherInfo-wrapper {
-  max-width: 600px;
+  max-width: 700px;
 }
 .weatherInfo {
   max-width: 600px;
@@ -24,16 +28,13 @@ li {
   border: 5px solid #fe85a3;
   border-radius: 5px;
 }
-.searchbox {
-  margin-top: 0px;
-  margin-left: 100px;
-  float: left;
+#search-text-input {
+  display: block;
+  height: 37px;
 }
-#button {
-  margin-top: -35px;
-  width: 75px;
-  font-size: 15px;
-  text-align: center;
+#search-btn {
+  display: block;
+  margin-left: -50px;
 }
 .resize {
   width: 60px;
@@ -44,10 +45,11 @@ li {
 #description {
   text-align: left;
   margin-top: -10px;
-  margin-left: 5px;
+  margin-left: -2px;
   color: #e93e69;
   font-size: 2em;
   text-transform: capitalize;
+  font-style: italic;
 }
 .temp strong {
   color: #ad48bc;

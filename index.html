@@ -18,33 +18,36 @@
     <div class="container">
       <div class="weatherInfo-wrapper">
         <div class="weatherInfo">
-            <form id="search-form">
-        <div class="searchbox">
+            <form id="search-form" class="mb-4">
+        <div class="row">
+          <div class="col-6">
                 <input
-                type = "text"
-                placeholder = "search city"
+                type = "search"
+                placeholder = "Search a city"
                 autocomplete="off"
                 autofocus="on"
                 id="search-text-input"
+                size="25"
+          
                 />
-                </div>
-                <div >
+                
+          </div>
+            <div class="col-3">
                 <input 
                 type = "submit" 
                 value = "search"
+                class="btn btn-primary"
+                id="search-btn"
                 />
                 </div>
-                <div class= "col-3" id="button">
-                  <button class="btn btn-success" id="current-location-button"> 
-                    Current
-                  </button>
-                </div>
+           
+          </div>
             </form>
           <h1 id="city">Chicago</h1>
            <div id = "description">Clear</div>
 
           <div class="row">
-            <div class="col-6">
+            <div class="col-8">
               <div class="clearfix temp">
                 <img
                   class="resize"
@@ -61,9 +64,9 @@
                
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-3">
               <ul>
-                <li><div class="date">Friday 8:30</div></li>
+                <li><div class="date"> 8:30</div></li>
                 <li> Wind: <span id="wind"> </span>km/hr </li>
                 <li>Humidity: <span id="humidity"></span>%</li>
               </ul>
@@ -101,6 +104,7 @@
         </div>
       </div>
     </div>
+    
      <footer>
           <a
             href="https://github.com/lscalise17/Vanilla--World-Weather-App"
@@ -109,7 +113,8 @@
             This open-source code,
           </a>
           by Lauren Akinrinade
-        </footer>
+      </footer>
+        
     <script src="src/weather.js"></script>
   </body>
 </html>
