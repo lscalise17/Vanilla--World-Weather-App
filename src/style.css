@@ -1,3 +1,8 @@
+body {
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  min-height: 700px;
+}
+
 h1 {
   color: #e93e69;
   line-height: 28px;
@@ -15,11 +20,11 @@ li {
   padding: 0;
 }
 footer {
-  margin-left: 50px;
+  margin-left: 150px;
 }
 
 .weatherInfo-wrapper {
-  max-width: 700px;
+  max-width: 900px;
 }
 .weatherInfo {
   max-width: 600px;
