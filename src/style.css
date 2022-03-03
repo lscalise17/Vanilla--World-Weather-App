@@ -20,7 +20,9 @@ li {
   padding: 0;
 }
 footer {
-  margin-left: 150px;
+  margin-left: 155px;
+  font-size: 12px;
+  margin-top: -15px;
 }
 #update {
   margin-top: -10px;
@@ -71,26 +73,26 @@ footer {
   position: relative;
   top: -10px;
 }
-.days {
-  text-align: center;
-  color: #68b7f7;
-}
-.dates {
-  text-align: center;
-  margin-bottom: -20px;
-  color: #68b7f7;
-}
-.forecast {
-  border: 1px solid rgb(148, 145, 145);
-  text-align: center;
-  color: #596aca;
-  border-radius: 4px;
-}
 .temp .active {
   color: black;
   cursor: default;
   text-decoration: none;
 }
-.temp .active:hover {
-  text-decoration: none;
+.forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+.dates {
+  font-size: 20px;
+  color: #0aaaf5;
+}
+.weather-temp {
+  font-size: 14px;
+  color: #0aaaf5;
+}
+.weather-temp-max {
+  font-weight: 800;
+}
+.weather-temp-min {
+  opacity: 0.9;
 }
