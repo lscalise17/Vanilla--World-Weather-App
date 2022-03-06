@@ -41,6 +41,33 @@ function showTemperature(response) {
   );
   celsiusTemperature = response.data.main.temp;
 }
+
+function displayForecast() {
+  let forecastElement = document.querySelector("#weather-forecast");
+
+  let days = ["Thu", "Fri", "Sat", "Sun"];
+
+  let forecastHTML = `<div class="row">`;
+  days.forEach(function (day) {
+    forecastHTML =
+      forecastHTML +
+      `
+       <div class="col-2">
+            <div class="dates">
+              ${day}
+            </div>
+            <img src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png" alt="" width="42"/>
+            <div class="weather-temp">
+              <span class="weather-temp-max">18°C</span> 
+              <span class="weather-temp-min">12°F</span>
+            </div>
+          </div>
+        `;
+  });
+
+  forecastHTML = forecastHTML + `</div>`;
+  forecastElement.innerHTML = forecastHTML;
+}
 function search(city) {
   let units = "metric";
   let apiKey = "7df4cedb86cc8633158337122115a5f8";
@@ -83,3 +110,4 @@ let celsiuslink = document.querySelector("#celsius-link");
 celsiuslink.addEventListener("click", displayCelsiusTemperature);
 
 search("Chicago");
+displayForecast();

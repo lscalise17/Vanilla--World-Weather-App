@@ -24,6 +24,9 @@ footer {
   font-size: 12px;
   margin-top: -15px;
 }
+hr {
+  color: black;
+}
 #update {
   margin-top: -10px;
   margin-bottom: 20px;
