@@ -28,10 +28,10 @@ hr {
   color: black;
 }
 #update {
-  margin-top: -10px;
+  margin-top: 5px;
   margin-bottom: 20px;
   font-weight: 300;
-  color: #68b7f7;
+  color: #114670;
 }
 .weatherInfo-wrapper {
   max-width: 900px;
